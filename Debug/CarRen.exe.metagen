@@ -1,0 +1,93 @@
+  CarRen.AddBook.resources - Embedded, ContainedInManifestFile, 
+  CarRen.Admin.resources - Embedded, ContainedInManifestFile, 
+  CarRen.Admin1.resources - Embedded, ContainedInManifestFile, 
+  CarRen.AdminF.resources - Embedded, ContainedInManifestFile, 
+  CarRen.CarF.resources - Embedded, ContainedInManifestFile, 
+  CarRen.CustomerF.resources - Embedded, ContainedInManifestFile, 
+  CarRen.EstimationF.resources - Embedded, ContainedInManifestFile, 
+  CarRen.FeeedbackF.resources - Embedded, ContainedInManifestFile, 
+  CarRen.MyForm.resources - Embedded, ContainedInManifestFile, 
+  CarRen.ReadFeedBack.resources - Embedded, ContainedInManifestFile, 
+  CarRen.ShowBook.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CarRen, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC.STLCLR, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class User: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String ID : Public
+    System.String Name : Public
+    System.String PassWord : Public
+  Methods:
+    Add(String, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Delete(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Load(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class CarRen.EstimationF: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CarRen.FeeedbackF: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CarRen.AddBook: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    fill_listview(): PrivateScope, Public, HideBySig
+    fill_User_listview(): PrivateScope, Public, HideBySig
+    fill_Deletetd_User_listview(): PrivateScope, Public, HideBySig
+    Get_CustID(): PrivateScope, Public, HideBySig
+    Get_BookinID(): PrivateScope, Public, HideBySig
+    check_String(String, String): PrivateScope, Public, HideBySig
+    Check_Time_Cases(String, String): PrivateScope, Public, HideBySig
+    Check_Time_Cases_For_UpDate(String, String): PrivateScope, Public, HideBySig
+    Clear_HandWriten(): PrivateScope, Public, HideBySig
+    delete_old(): PrivateScope, Public, HideBySig
+Class CarRen.AdminF: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    clear_handwriten(): PrivateScope, Public, HideBySig
+    Check_Empty(): PrivateScope, Public, HideBySig
+Class CarRen.CarF: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    clear_handwriten(): PrivateScope, Public, HideBySig
+    Check_Empty(): PrivateScope, Public, HideBySig
+    fill_listview(): PrivateScope, Public, HideBySig
+Class CarRen.CustomerF: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    fill_listview(): PrivateScope, Public, HideBySig
+    clear_handwriten(): PrivateScope, Public, HideBySig
+    Check_Empty(): PrivateScope, Public, HideBySig
+Class CarRen.ShowBook: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CarRen.ReadFeedBack: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CarRen.Admin1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CarRen.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CarRen.Admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
